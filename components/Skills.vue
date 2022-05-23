@@ -2,42 +2,29 @@
   <div id="skills">
     <h2 class="heading">Skills</h2>
     <ul>
+      <li>PHP</li>
+      <li>Laravel</li>
       <li>JavaScript</li>
-      <li>Python</li>
-      <li>Ruby</li>
-      <li>Go</li>
+      <li>TypeScript</li>
+      <li>Vuejs</li>
+      <li>Nuxtjs</li>
       <li>Node.js</li>
-      <li>AngularJs</li>
-      <li>React</li>
-      <li>Elixir</li>
-      <li>Java</li>
+      <li>Express</li>
+      <li>Redis</li>
       <li>C</li>
-      <li>C#</li>
       <li>C++</li>
-      <li>Ruby on Rails</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-      <li>Ruby</li>
-      <li>Go</li>
-      <li>Node.js</li>
-      <li>AngularJs</li>
-      <li>React</li>
-      <li>Elixir</li>
-      <li>Java</li>
-      <li>C</li>
-      <li>C#</li>
-      <li>C++</li>
-      <li>Ruby on Rails</li>
+      <li>MySql</li>
+      <li>PostGres</li>
+      <li>Docker</li>
     </ul>
   </div>
 </template>
 
 <script>
-    export default {
-        name: "Skills"
-    }
+export default {
+  name: "Skills",
+};
 </script>
 
 <style scoped>
-
 </style>

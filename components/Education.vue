@@ -2,29 +2,31 @@
   <div id="education">
     <h2 class="heading">Education</h2>
     <div class="education-block">
-      <h3>University of Ottawa</h3>
-      <span class="education-date">Sept 2016 - Sept 2017</span>
-      <h4>Bachelor of Science in Computer Science</h4>
+      <h3>Khulna University of Engineering and Technology</h3>
+      <span class="education-date">April 2013 - Feb 2018</span>
+      <h4>Bachelor of Science in Computer Science & Engineering</h4>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+        <ul>
+          <li>
+            Thesis on Computer Vision and visual saliency
+          </li>
+          <li>
+            Interested to work on Machine Learning, Data Mining, Computer Vision
+          </li>
+          <li>
+            Had the experience of working with DNA Sequence Visualizer using D3js
+          </li>
+        </ul>
       </p>
     </div>
     <!-- End .education-block -->
 
     <div class="education-block">
-      <h3>University of Ottawa</h3>
-      <span class="education-date">Sept 2016 - Sept 2017</span>
-      <h4>Bachelor of Science in Computer Science</h4>
+      <h3>Savar Cantonment public School & College</h3>
+      <span class="education-date">2011-2013</span>
+      <h4>Science</h4>
       <ul>
-        <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </li>
-        <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </li>
-        <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </li>
+        <li>Activities and societies: Cricket, Carram, Debate.</li>
       </ul>
     </div>
     <!-- End .education-block -->
@@ -33,11 +35,10 @@
 </template>
 
 <script>
-    export default {
-        name: "Education"
-    }
+export default {
+  name: "Education",
+};
 </script>
 
 <style scoped>
-
 </style>

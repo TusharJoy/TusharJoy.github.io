@@ -13,10 +13,14 @@
           <a v-scroll-to="{ element: '#about', duration: 3000 }">About</a>
         </li>
         <li>
-          <a v-scroll-to="{ element: '#experience', duration: 3000 }">Experience</a>
+          <a v-scroll-to="{ element: '#experience', duration: 3000 }"
+            >Experience</a
+          >
         </li>
         <li>
-          <a v-scroll-to="{ element: '#education', duration: 3000 }">Education</a>
+          <a v-scroll-to="{ element: '#education', duration: 3000 }"
+            >Education</a
+          >
         </li>
         <li>
           <a v-scroll-to="{ element: '#projects', duration: 3000 }">Projects</a>
@@ -34,11 +38,10 @@
 </template>
 
 <script>
-  export default {
-    name: "Header"
-  }
+export default {
+  name: "Header",
+};
 </script>
 
 <style scoped>
-
 </style>

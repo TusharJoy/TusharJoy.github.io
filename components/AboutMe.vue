@@ -2,18 +2,25 @@
   <div>
     <div id="lead">
       <div id="lead-content">
-        <h1>Tushar Ghosh</h1>
-        <h2>Software Engineer</h2>
-        <a href="#" class="btn-rounded-white">Download Resume</a>
+        <h1>Tushar Ghosh Joy</h1>
+        <h2>
+          Software Engineer<a
+            target="_blank"
+            href="https://www.cefalo.com/"
+            style="text: green"
+            >@Cefalo</a
+          >
+        </h2>
+        <a href="resume.pdf" class="btn-rounded-white">Download Resume</a>
       </div>
       <!-- End #lead-content -->
 
       <div id="lead-overlay"></div>
 
       <div id="lead-down">
-            <span  v-scroll-to="{ element: '#contact', duration: 4000 }" >
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
+        <span v-scroll-to="{ element: '#contact', duration: 4000 }">
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </span>
       </div>
       <!-- End #lead-down -->
     </div>
@@ -27,14 +34,22 @@
           </div>
           <div class="col-md-8">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet
-              urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi
-              dapibus porta quam laoreet placerat. Donec
-              eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt
-              libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra.
-              Vivamus nunc justo, finibus
-              ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat,
-              mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+              I am Experienced Software Engineer with a demonstrated history of
+              working in the web technology and services industry. Skilled in
+              PHP/Laravel, Vuejs, Express, Linux Servers, *nix environment.
+              Strong engineering professional with a Bachelor of Science - B.Sc
+              focused in Computer Science & Engineering from Khulna University
+              of Engineering & Technology (KUET).
+              <ul class="m-2">
+                <li>
+                  Technology I am playing
+                withnow: TypeScript, Vue, Node/Express Docker, Kubernetes, Jest
+                Asterisk, RabbitMQ, Apache Kafka
+                </li>
+                <li>Interest: - Large applications
+                that Scales - Microservices and Distributed Systems
+                </li>
+              </ul>
             </p>
           </div>
         </div>
@@ -45,16 +60,13 @@
 </template>
 
 <script>
-  export default {
-    name: "AboutMe",
-    methods: {
-      topToBottom() {
-
-      }
-    }
-  }
+export default {
+  name: "AboutMe",
+  methods: {
+    topToBottom() {},
+  },
+};
 </script>
 
 <style scoped>
-
 </style>
