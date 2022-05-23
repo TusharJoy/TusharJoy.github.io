@@ -4,7 +4,7 @@
     <div class="education-block">
       <h3>Khulna University of Engineering and Technology</h3>
       <span class="education-date">April 2013 - Feb 2018</span>
-      <h4>Bachelor of Science in Computer Science & Engineering</h4>
+      <h6>Bachelor of Science in Computer Science & Engineering</h6>
       <p>
         <ul>
           <li>
@@ -24,7 +24,7 @@
     <div class="education-block">
       <h3>Savar Cantonment public School & College</h3>
       <span class="education-date">2011-2013</span>
-      <h4>Science</h4>
+      <h6>Science</h6>
       <ul>
         <li>Activities and societies: Cricket, Carram, Debate.</li>
       </ul>

@@ -4,12 +4,12 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <project></project>
+          <Romoni></Romoni>
         </div>
       </div>
       <div class="row">
         <div class="col-12">
-          <project></project>
+          <Romoni></Romoni>
         </div>
       </div>
     </div>
@@ -17,18 +17,18 @@
 </template>
 
 <script>
-  import Project from "./Project";
+import Romoni from "./Romoni";
 
-  export default {
-    name: "Projects",
-    components: {Project}
-  }
+export default {
+  name: "Projects",
+  components: { Romoni },
+};
 </script>
 
 <style scoped>
-  #projects {
-    padding: 50px 15px;
-    border-bottom: 1px solid #dcd9d9;
-    text-align: center;
-  }
+#projects {
+  padding: 50px 15px;
+  border-bottom: 1px solid #dcd9d9;
+  text-align: center;
+}
 </style>
